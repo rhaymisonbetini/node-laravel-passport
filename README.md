@@ -87,3 +87,39 @@ The return of passporGetAccessToken will be an object with its access_token, tok
 }
 ```
 
+### FULL CLASS EXEMPLE
+
+```javascript
+'use strict'
+
+const Passport = require('node-laravel-passport');
+
+const client_id = '';
+const secret_id = '2LXKG0eloH1r5FyEWuvJbpXVLcleYTw4YJgWG4YP';
+const callback_url = 'http://127.0.0.1:3333/auth/callback';
+const laravelPassportApi = 'http://127.0.0.1:8000'
+
+class PassportController {
+
+  constructor() {
+    this.passport = new Passport();
+    this.passport.createClient(client_id, secret_id, callback_url, laravelPassportApi);
+  }
+
+
+  redirect({request, response}) {
+    const uriAuthoriize = this.passport.passportCreateUriAutorize();
+    response.redirect(uriAuthoriize)
+  }
+
+  async callback({request, response}) {
+    const code = request.all().code
+    let oatuhAcessToken = await this.passport.passporGetAccessToken(code);
+  }
+
+}
+
+module.exports = PassportController
+
+
+```
