@@ -37,10 +37,16 @@ class Passport {
         return this.passportConnector.createUriToAutorize(this.client_id, this.callbackUrl, this.apiEndpoint)
     }
 
-    passporGetAccessToken() {
-
+    /**
+     * this method recibe the code return to passportCreateUriAutorize to get access_token for node application
+     * @param {string} code 
+     * @param {Promise<Object>}  
+     */
+    async passporGetAccessToken(code) {
+        return await this.passportConnector.getAcsessToken(this.client_id,this.secret_id,this.callbackUrl,this.apiEndpoint, code);
     }
 }
+
 
 
 module.exports = Passport;
