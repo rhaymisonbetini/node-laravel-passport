@@ -1,8 +1,8 @@
 # NODE LARAVEL PASSPORT CONNECTOR
 <p align="center">
    <img alt="Bower" src="https://img.shields.io/bower/l/MI?style=flat-square">
+   <img alt="Bower" src="https://img.shields.io/badge/version-1.0.0-blue">
 </p>
-   ![version](https://img.shields.io/badge/version-1.0.0-blue)
 
 This package performs Oauth between your NODE application and a LARAVEL application that uses Passport as authentication.<br/>
 
