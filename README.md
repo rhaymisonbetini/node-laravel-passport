@@ -95,7 +95,7 @@ The return of passporGetAccessToken will be an object with its access_token, tok
 const Passport = require('node-laravel-passport');
 
 const client_id = '';
-const secret_id = '2LXKG0eloH1r5FyEWuvJbpXVLcleYTw4YJgWG4YP';
+const secret_id = '';
 const callback_url = 'http://127.0.0.1:3333/auth/callback';
 const laravelPassportApi = 'http://127.0.0.1:8000'
 
