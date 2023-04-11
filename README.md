@@ -1,8 +1,30 @@
 # NODE LARAVEL PASSPORT CONNECTOR
 <p align="center">
-   <img alt="Bower" src="https://img.shields.io/bower/l/MI?style=flat-square">
-   <img alt="Bower" src="https://img.shields.io/badge/version-1.0.0-blue">
+   <img src="https://img.shields.io/bower/l/MI?style=flat-square">
+   <img src="https://img.shields.io/badge/version-1.0.1-blue">
+   <img alt="npm" src="https://img.shields.io/npm/dm/node-laravel-passport">
+   <img alt="npm" src="https://img.shields.io/npm/dw/node-laravel-passport">
+   <img src="https://img.shields.io/badge/coverage-100%25-yellowgree" alt="coverage">
+   <img src="https://img.shields.io/github/issues/rhaymisonbetini/node-laravel-passport.svg">
+   <img src="https://img.shields.io/github/issues-closed/rhaymisonbetini/node-laravel-passport.svg">
+   <img src="https://img.shields.io/github/issues-pr/rhaymisonbetini/node-laravel-passport.svg">
+   <img src="https://img.shields.io/github/issues-pr-closed/rhaymisonbetini/node-laravel-passport.svg">
 </p>
+
+<p align="center">
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/heleno-betini-2b3016175/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://github.com/rhaymisonbetini" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
 
 This package performs Oauth between your NODE application and a LARAVEL application that uses Passport as authentication.<br/>
 

@@ -1,6 +1,6 @@
 {
   "name": "node-laravel-passport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Conector for laravel passport oauth for node applications",
   "main": "index.js",
   "scripts": {
